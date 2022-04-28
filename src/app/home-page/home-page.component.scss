@@ -1,0 +1,40 @@
+.infor {
+    background-color: #292a2b;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-item {
+    font-family: CentraNo1-book;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: .1px;
+    color: #cbcbc9;
+    text-decoration: none;
+}
+
+.contact-item {
+    color: hsla(0, 0%, 100%, .35);
+    font-size: 12px;
+}
+.item {
+    padding-bottom: 15px;
+}
+.link-item:hover {
+    color: white;
+}
+.copyright {
+    background-color: #0b0b0b;
+}
