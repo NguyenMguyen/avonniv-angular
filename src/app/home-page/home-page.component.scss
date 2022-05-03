@@ -1,7 +1,16 @@
 * {
     box-sizing: inherit;
 }
-
+.home-page-menu {
+    z-index: 99;
+    position: absolute;
+    height: 500px;
+    .dropdown-menu {
+        .dropdown-item {
+            color: black
+        }
+    }
+}
 .infor {
     background-color: #292a2b;
 }
@@ -10,6 +19,7 @@ a {
     text-decoration: none;
     cursor: pointer;
     touch-action: manipulation;
+    color: white;
 }
 
 ul {
@@ -187,6 +197,31 @@ ul {
 
         .your-funding {
             position: absolute;
+
+            .heading {
+                height: 83px;
+                font-family: CentraNo1;
+                font-size: 3.75rem;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -.5px;
+                color: #fff;
+            }
+
+            .content {
+                height: 22px;
+                font-family: CentraNo1-book;
+                font-size: 1.25rem;
+                font-weight: 400;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -.2px;
+                color: #fff;
+                padding: 0 5px !important;
+            }
         }
     }
 }
@@ -227,35 +262,5 @@ ul {
         .content {
             padding: 0 3px !important;
         }
-    }
-}
-
-.header .header-content .your-funding {
-
-    position: absolute;
-
-    .heading {
-        height: 83px;
-        font-family: CentraNo1;
-        font-size: 3.75rem;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: -.5px;
-        color: #fff;
-    }
-
-    .content {
-        height: 22px;
-        font-family: CentraNo1-book;
-        font-size: 1.25rem;
-        font-weight: 400;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: -.2px;
-        color: #fff;
-        padding: 0 5px !important;
     }
 }
