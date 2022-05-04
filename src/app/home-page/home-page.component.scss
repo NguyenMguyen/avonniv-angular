@@ -1,16 +1,87 @@
 * {
     box-sizing: inherit;
 }
+
+img {
+    vertical-align: middle;
+}
+
 .home-page-menu {
     z-index: 99;
     position: absolute;
     height: 500px;
+
+    .navbar-brand {
+        width: 120px;
+        height: 36px;
+        font-family: CentraNo1-book-italic;
+        font-size: 40px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fff;
+        text-transform: uppercase;
+        margin-right: 35px;
+
+        display: inline-block;
+
+
+        img {
+            height: 24px;
+            width: 155px;
+        }
+    }
+
     .dropdown-menu {
         .dropdown-item {
             color: black
         }
     }
+
+    .nav-link:hover {
+        color: white;
+    }
+
+    .nav-link:focus {
+        color: white;
+    }
+
+    .dropdown-toggle:after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 0.3em;
+        vertical-align: middle;
+        content: "";
+        border-top: 0.3em solid;
+        border-right: 0.3em solid transparent;
+        border-left: 0.3em solid transparent;
+    }
+
+    .button-signup {
+        width: 143px;
+        height: 45px;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: #fff;
+        color: #a78730;
+        text-transform: none;
+        font-size: 16px;
+        font-weight: 700;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: .48px;
+        text-align: center;
+    }
 }
+
+.btn:focus, button:focus {
+    box-shadow: none;
+}
+
 .infor {
     background-color: #292a2b;
 }
@@ -249,6 +320,12 @@ ul {
         text-align: left;
         padding: 0 3px !important;
     }
+
+    .navbar-brand img {
+        width: 100px !important;
+        height: 20px !important;
+        margin-bottom: 15px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -262,5 +339,10 @@ ul {
         .content {
             padding: 0 3px !important;
         }
+    }
+
+    .home-page-menu .navbar-brand {
+        width: 100px !important;
+        margin-right: 0 !important;
     }
 }

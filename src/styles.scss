@@ -1,1 +1,25 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+@font-face {
+    font-family: CentraNo1-Bold;
+    src: url(assets/fonts/Centra/CentraNo1-Bold.woff) format("woff");
+}
+@font-face {
+    font-family: CentraNo1-BoldItalic;
+    src: url(assets/fonts/Centra/CentraNo1-BoldItalic.woff) format("woff");
+}
+@font-face {
+    font-family: CentraNo1-Book;
+    src: url(assets/fonts/Centra/CentraNo1-Book.woff) format("woff");
+}
+@font-face {
+    font-family: CentraNo1-BookItalic;
+    src: url(assets/fonts/Centra/CentraNo1-BookItalic.woff) format("woff");
+}
+@font-face {
+    font-family: CentraNo1-Medium;
+    src: url(assets/fonts/Centra/CentraNo1-Medium.woff) format("woff");
+}
+@font-face {
+    font-family: CentraNo1-MediumItalic;
+    src: url(assets/fonts/Centra/CentraNo1-MediumItalic.woff) format("woff");
+}
