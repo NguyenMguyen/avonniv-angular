@@ -1,70 +1,183 @@
 <div class="home-page-menu w-100">
-    <div class="container">
-        <nav class="navbar navbar-expand-md">
+    <!--<div class="container">-->
+    <!--<div class="row">-->
+    <nav class="navbar navbar-expand-md w-100">
+        <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/ymner_white_RGB.png">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <button class="navbar-toggler mt-auto pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
                 <span class="text-white me-2">Menu</span>
                 <i class="fa fa-align-justify text-white"></i>
             </button>
-            <div class="collapse navbar-collapse mt-lg-4 mt-md-3 ms-2 justify-content-between" id="collapsibleNavbar">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse mt-lg-4 mt-md-3 ms-2" id="collapsibleNavbar">
+                <ul class="navbar-nav align-items-end align-items-md-start">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Funded projects</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                <ul class="navbar-nav ms-auto align-items-md-center align-items-end">
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle text-end" href="#" role="button"
                             data-bs-toggle="dropdown">Insights</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Grants overview</a></li>
-                            <li><a class="dropdown-item" href="#">Grants overview (Bar chart)</a></li>
-                            <li><a class="dropdown-item" href="#">Projects overview</a></li>
-                            <li><a class="dropdown-item" href="#">Projects overview (Bar chart)</a></li>
-                            <li><a class="dropdown-item" href="#">Area search</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-user"></i>
+                                    <span>Grants overview</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-user"></i>
+                                    <span>Grants overview (Bar chart)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-product-hunt"></i>
+                                    <span>Projects overview</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i aria-hidden="true"
+                                        class="fa fa-product-hunt"></i><span>Projects overview (Bar chart)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i aria-hidden="true"
+                                        class="fa fa-university"></i><span>Area search</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle text-end" href="#" role="button"
                             data-bs-toggle="dropdown">Administration</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">User management</a></li>
-                            <li><a class="dropdown-item" href="#">Trigger send email</a></li>
-                            <li><a class="dropdown-item" href="#">Project management</a></li>
-                            <li><a class="dropdown-item" href="#">Publisher management</a></li>
-                            <li><a class="dropdown-item" href="#">Crawl history</a></li>
-                            <li><a class="dropdown-item" href="#">Area management</a></li>
-                            <li><a class="dropdown-item" href="#">Category management</a></li>
-                            <li><a class="dropdown-item" href="#">Import a new category file</a></li>
-                            <li><a class="dropdown-item" href="#">Import quiz</a></li>
-                            <li><a class="dropdown-item" href="#">Statistic</a></li>
-                            <li><a class="dropdown-item" href="#">User tracker</a></li>
-                            <li><a class="dropdown-item" href="#">Metrics</a></li>
-                            <li><a class="dropdown-item" href="#">Health</a></li>
-                            <li><a class="dropdown-item" href="#">Configuration</a></li>
-                            <li><a class="dropdown-item" href="#">Audits</a></li>
-                            <li><a class="dropdown-item" href="#">Logs</a></li>
-                            <li><a class="dropdown-item" href="#">API</a></li>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-user"></i>
+                                    <span>User management</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-user"></i>
+                                    <span>Trigger send email</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-product-hunt"></i>
+                                    <span>Project management</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-university"></i>
+                                    <span>Publisher management</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-history"></i>
+                                    <span>Crawl history</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-flag"></i>
+                                    <span>Area management</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-list-alt"></i>
+                                    <span>Category management</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-plus-circle"></i>
+                                    <span>Import a new category file</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-plus-circle"></i>
+                                    <span>Import quiz</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-eye"></i>
+                                    <span>Statistic</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-eye"></i>
+                                    <span>User tracker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-tachometer"></i>
+                                    <span>Metrics</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-heart"></i>
+                                    <span>Health</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-list"></i>
+                                    <span>Configuration</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-bell"></i>
+                                    <span>Audits</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-tasks"></i>
+                                    <span>Logs</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i aria-hidden="true" class="fa fa-fw fa-book"></i>
+                                    <span>API</span>
+                                </a>
+                            </li>
 
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <button class="dropdown-toggle btn button-signup" href="#" role="button"
+                        <button class="dropdown-toggle ms-auto btn button-signup" href="#" role="button"
                             data-bs-toggle="dropdown">
                             <i class="fa fa-user me-2"></i>
                             <span>Profile</span>
                         </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Settings</a></li>
-                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#"><span>Settings</span></a></li>
+                            <li><a class="dropdown-item" href="#"><span>Sign out</span></a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
+    <!--</div>-->
+    <!--</div>-->
 </div>
 <div class="header background-image">
     <div class="header-content">
@@ -75,12 +188,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-10 offset-sm-1 col-md-12 offset-md-0">
-                        <h1 class="heading">Makes ideas grow</h1>
+                        <h1 class="heading">Make ideas grow</h1>
                     </div>
+
                 </div>
                 <div class="row">
                     <div class="col-sm-10 offset-sm-1 col-md-12 offset-md-0">
-                        <p class="content">Services for funding of Innovation & Research</p>
+                        <p class="content">
+                            Services for funding of
+                            <strong>Innovation & Research</strong>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -90,15 +207,19 @@
 <div class="container home-body">
     <div class="vision">
         <div class="vision-title">Our vision</div>
-        <div class="vision-description">Ymner was created with the vision that more individuals, organizations,
-            companies and financiers should be able to contribute to groundbreaking innovation and research. Based on
-            this vision, this platform for innovation and research funding was created with services both for those
-            seeking funding and for those who fund research and innovation.</div>
+        <div class="vision-description">
+            <p>Ymner was created with the vision that more individuals, organizations,
+                companies and financiers should be able to contribute to groundbreaking innovation and research. Based
+                on
+                this vision, this platform for innovation and research funding was created with services both for those
+                seeking funding and for those who fund research and innovation.
+            </p>
+        </div>
     </div>
     <div class="row vision-container">
         <div class="col-md-6">
             <div class="vision-box-left">
-                <div class="text-header">Available funding</div>
+                <div class="text-header-find-financing">Available funding</div>
                 <div class="text-body">
                     <p>Ymner contains information about public grants, foundations and funds, investors, accelerators
                         and incubators, etc. As a fund seeker you can access the latest opportunities for both public
@@ -107,7 +228,7 @@
                     </p>
                 </div>
                 <div class="text-footer">
-                    <strong>437 grants available right now.</strong>
+                    <span>437 grants available right now.</span>
                 </div>
                 <div class="w-100 text-center mb-2">
                     <button class="btn button-show">Show</button>
@@ -125,7 +246,7 @@
                         and research.</p>
                 </div>
                 <div class="text-footer">
-                    <strong>17.1 billion SEK in funding over the past year.</strong>
+                    <span>17.1 billion SEK in funding over the past year.</span>
                 </div>
                 <div class="w-100 text-center mb-2">
                     <button class="btn button-show">Show</button>
@@ -159,10 +280,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2 col-sm-12 my-2 language pb-md-0 pb-sm-2">
-                    <p class="">
-                        <img alt src="assets/img/england_flag.png">
-                        <span>English</span>
-                    </p>
+                    <div class="dropdown dropup">
+                        <p class="dropdown-toggle" data-bs-toggle="dropdown">
+                            <img alt src="assets/img/england_flag.png">
+                            <span class="language-current">English</span>
+                        </p>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><span>English</span></a></li>
+                            <li><a class="dropdown-item" href="#"><span>Svenska</span></a></li>
+                        </ul>
+                    </div>
+
                 </div>
                 <div class="col-md-10 col-sm-12 text-md-right text-sm-left my-2">
                     <p class="d-md-inline d-sm-block my-0">© COPYRIGHT THE YMNER SOCIETY AB 2020. </p>
