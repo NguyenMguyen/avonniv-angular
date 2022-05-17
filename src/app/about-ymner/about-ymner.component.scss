@@ -14,7 +14,7 @@ img {
     left: 0;
     height: auto;
     background-color: #edf8ef;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ccc;
 
     .navbar-brand {
         width: 120px;
@@ -55,6 +55,10 @@ img {
         }
     }
 
+    .nav-link {
+        color: rgba(0, 0, 0, .9) !important;
+    }
+
     .nav-link:hover {
         color: white;
     }
@@ -80,8 +84,8 @@ img {
         height: 45px;
         border-radius: 30px;
         cursor: pointer;
-        background-color: #fff;
-        color: #a78730;
+        background-color: #a78730;
+        color: #fff;
         text-transform: none;
         font-size: 16px;
         font-weight: 700;
@@ -302,6 +306,8 @@ span:not(.fa) {
         }
 
         .hermes {
+            display: flex;
+
             .info {
                 padding-left: 70px;
 
@@ -328,8 +334,132 @@ span:not(.fa) {
                     font-family: CentraNo1-book !important;
                 }
             }
+
             .avatar {
                 flex: auto;
+            }
+        }
+
+        .advisor {
+            margin-top: 150px;
+        }
+
+        .patricia {
+            margin-top: 54px;
+            margin-bottom: 190px;
+            display: flex;
+
+            .avatar {
+                margin-right: 40px
+            }
+
+            .info {
+                h4 {
+                    font-size: 24px;
+                    color: #000;
+                    opacity: .8;
+                    font-weight: 700;
+                    font-family: CentraNo1-bold !important;
+                }
+
+                .linkedin {
+                    width: 36px;
+                    height: 36px;
+                }
+
+                p {
+                    max-width: 466px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #000;
+                    opacity: .8;
+                    line-height: 26px;
+                    font-family: CentraNo1-book !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us-page {
+        .about-us-main {
+            .oscar {
+                display: unset;
+
+                .avatar {
+                    margin-right: unset;
+                    text-align: center;
+                }
+
+                .info {
+                    text-align: center;
+
+                    h4 {
+                        margin-top: 32px;
+                    }
+
+                    .linkedin {
+                        margin: auto;
+                    }
+
+                    p {
+                        max-width: unset;
+                    }
+                }
+            }
+
+            .hermes {
+                flex-direction: column-reverse;
+                align-items: center;
+
+                .info {
+                    padding-left: unset;
+                    text-align: center;
+
+                    h4 {
+                        margin-top: 32px;
+                    }
+
+                    .linkedin {
+                        margin: auto;
+                    }
+
+                    p {
+                        max-width: unset;
+                    }
+                }
+            }
+
+            .advisor {
+                margin-top: 56px;
+            }
+
+            .patricia {
+                display: unset;
+
+                .avatar {
+                    margin-top: 55px;
+                    margin-right: unset;
+                    text-align: center;
+                }
+
+                .info {
+                    text-align: center;
+                    margin-bottom: 190px;
+
+                    h4 {
+                        margin-top: 32px;
+                    }
+
+                    .linkedin {
+                        margin: auto;
+                    }
+
+                    p {
+                        max-width: unset;
+                    }
+                }
             }
         }
     }
